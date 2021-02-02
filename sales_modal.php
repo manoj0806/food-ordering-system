@@ -28,9 +28,9 @@
                                     ?>
                                     <tr>
                                         <td><?php echo $drow['productname']; ?></td>
-                                        <td class="text-right">&#8369; <?php echo number_format($drow['price'], 2); ?></td>
+                                        <td class="text-right">&#8377;; <?php echo number_format($drow['price'], 2); ?></td>
                                         <td><?php echo $drow['quantity']; ?></td>
-                                        <td class="text-right">&#8369;
+                                        <td class="text-right">&#8377;
                                             <?php
                                                 $subt = $drow['price']*$drow['quantity'];
                                                 echo number_format($subt, 2);
@@ -43,7 +43,7 @@
                             ?>
                             <tr>
                                 <td colspan="3" class="text-right"><b>TOTAL</b></td>
-                                <td class="text-right">&#8369; <?php echo number_format($row['total'], 2); ?></td>
+                                <td class="text-right">&#8377; <?php echo number_format($row['total'], 2); ?></td>
                             </tr>
                         </tbody>
                     </table>
